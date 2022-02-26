@@ -19,7 +19,8 @@
     "e2e": "ng e2e",
     "publish": "npm publish --access public",
     "unpublish": "npm unpublish ngx-gallery-images-video --force",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "install": "npm run build"
   },
   "private": false,
   "dependencies": {
