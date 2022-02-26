@@ -18,7 +18,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "publish": "npm publish --access public",
-    "unpublish": "npm unpublish ngx-gallery-images-video --force"
+    "unpublish": "npm unpublish ngx-gallery-images-video --force",
+    "prepare": "ng build --prod"
   },
   "private": false,
   "dependencies": {
