@@ -1,0 +1,30 @@
+import { NgModule, NO_ERRORS_SCHEMA, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { NgxGalleryComponent } from './ngx-gallery.component';
+import { NgxGalleryPreviewComponent } from './ngx-gallery-preview/ngx-gallery-preview.component';
+import { NgxGalleryImageComponent } from './ngx-gallery-image/ngx-gallery-image.component';
+import { NgxGalleryThumbnailsComponent } from './ngx-gallery-thumbnails/ngx-gallery-thumbnails.component';
+import { NgxGalleryActionComponent } from './ngx-gallery-action/ngx-gallery-action.component';
+import { NgxGalleryArrowsComponent } from './ngx-gallery-arrows/ngx-gallery-arrows.component';
+import { NgxGalleryBulletsComponent } from './ngx-gallery-bullets/ngx-gallery-bullets.component';
+import { CommonModule } from '@angular/common';
+export class NgxGalleryModule {
+}
+NgxGalleryModule.decorators = [
+    { type: NgModule, args: [{
+                declarations: [
+                    NgxGalleryComponent,
+                    NgxGalleryPreviewComponent,
+                    NgxGalleryImageComponent,
+                    NgxGalleryThumbnailsComponent,
+                    NgxGalleryActionComponent,
+                    NgxGalleryArrowsComponent,
+                    NgxGalleryBulletsComponent
+                ],
+                imports: [
+                    CommonModule
+                ],
+                exports: [NgxGalleryComponent],
+                schemas: [CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA]
+            },] }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmd4LWdhbGxlcnkubW9kdWxlLmpzIiwic291cmNlUm9vdCI6Ii4uLy4uLy4uL3Byb2plY3RzL25neC1nYWxsZXJ5L3NyYy8iLCJzb3VyY2VzIjpbImxpYi9uZ3gtZ2FsbGVyeS5tb2R1bGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFFBQVEsRUFBRSxnQkFBZ0IsRUFBQyxzQkFBc0IsRUFBRSxNQUFNLGVBQWUsQ0FBQztBQUNsRixPQUFPLEVBQUUsbUJBQW1CLEVBQUUsTUFBTSx5QkFBeUIsQ0FBQztBQUM5RCxPQUFPLEVBQUUsMEJBQTBCLEVBQUUsTUFBTSxxREFBcUQsQ0FBQztBQUNqRyxPQUFPLEVBQUUsd0JBQXdCLEVBQUUsTUFBTSxpREFBaUQsQ0FBQztBQUMzRixPQUFPLEVBQUUsNkJBQTZCLEVBQUUsTUFBTSwyREFBMkQsQ0FBQztBQUMxRyxPQUFPLEVBQUUseUJBQXlCLEVBQUUsTUFBTSxtREFBbUQsQ0FBQztBQUM5RixPQUFPLEVBQUUseUJBQXlCLEVBQUUsTUFBTSxtREFBbUQsQ0FBQztBQUM5RixPQUFPLEVBQUUsMEJBQTBCLEVBQUUsTUFBTSxxREFBcUQsQ0FBQztBQUNqRyxPQUFPLEVBQUUsWUFBWSxFQUFFLE1BQU0saUJBQWlCLENBQUM7QUFvQi9DLE1BQU0sT0FBTyxnQkFBZ0I7OztZQWhCNUIsUUFBUSxTQUFDO2dCQUNSLFlBQVksRUFBRTtvQkFDWixtQkFBbUI7b0JBQ25CLDBCQUEwQjtvQkFDMUIsd0JBQXdCO29CQUN4Qiw2QkFBNkI7b0JBQzdCLHlCQUF5QjtvQkFDekIseUJBQXlCO29CQUN6QiwwQkFBMEI7aUJBQzNCO2dCQUNELE9BQU8sRUFBRTtvQkFDUCxZQUFZO2lCQUNiO2dCQUNELE9BQU8sRUFBRSxDQUFDLG1CQUFtQixDQUFDO2dCQUM5QixPQUFPLEVBQUUsQ0FBQyxzQkFBc0IsRUFBQyxnQkFBZ0IsQ0FBQzthQUNuRCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IE5nTW9kdWxlLCBOT19FUlJPUlNfU0NIRU1BLENVU1RPTV9FTEVNRU5UU19TQ0hFTUEgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7IE5neEdhbGxlcnlDb21wb25lbnQgfSBmcm9tICcuL25neC1nYWxsZXJ5LmNvbXBvbmVudCc7XG5pbXBvcnQgeyBOZ3hHYWxsZXJ5UHJldmlld0NvbXBvbmVudCB9IGZyb20gJy4vbmd4LWdhbGxlcnktcHJldmlldy9uZ3gtZ2FsbGVyeS1wcmV2aWV3LmNvbXBvbmVudCc7XG5pbXBvcnQgeyBOZ3hHYWxsZXJ5SW1hZ2VDb21wb25lbnQgfSBmcm9tICcuL25neC1nYWxsZXJ5LWltYWdlL25neC1nYWxsZXJ5LWltYWdlLmNvbXBvbmVudCc7XG5pbXBvcnQgeyBOZ3hHYWxsZXJ5VGh1bWJuYWlsc0NvbXBvbmVudCB9IGZyb20gJy4vbmd4LWdhbGxlcnktdGh1bWJuYWlscy9uZ3gtZ2FsbGVyeS10aHVtYm5haWxzLmNvbXBvbmVudCc7XG5pbXBvcnQgeyBOZ3hHYWxsZXJ5QWN0aW9uQ29tcG9uZW50IH0gZnJvbSAnLi9uZ3gtZ2FsbGVyeS1hY3Rpb24vbmd4LWdhbGxlcnktYWN0aW9uLmNvbXBvbmVudCc7XG5pbXBvcnQgeyBOZ3hHYWxsZXJ5QXJyb3dzQ29tcG9uZW50IH0gZnJvbSAnLi9uZ3gtZ2FsbGVyeS1hcnJvd3Mvbmd4LWdhbGxlcnktYXJyb3dzLmNvbXBvbmVudCc7XG5pbXBvcnQgeyBOZ3hHYWxsZXJ5QnVsbGV0c0NvbXBvbmVudCB9IGZyb20gJy4vbmd4LWdhbGxlcnktYnVsbGV0cy9uZ3gtZ2FsbGVyeS1idWxsZXRzLmNvbXBvbmVudCc7XG5pbXBvcnQgeyBDb21tb25Nb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb21tb24nO1xuXG5cblxuQE5nTW9kdWxlKHtcbiAgZGVjbGFyYXRpb25zOiBbXG4gICAgTmd4R2FsbGVyeUNvbXBvbmVudCxcbiAgICBOZ3hHYWxsZXJ5UHJldmlld0NvbXBvbmVudCxcbiAgICBOZ3hHYWxsZXJ5SW1hZ2VDb21wb25lbnQsXG4gICAgTmd4R2FsbGVyeVRodW1ibmFpbHNDb21wb25lbnQsXG4gICAgTmd4R2FsbGVyeUFjdGlvbkNvbXBvbmVudCxcbiAgICBOZ3hHYWxsZXJ5QXJyb3dzQ29tcG9uZW50LFxuICAgIE5neEdhbGxlcnlCdWxsZXRzQ29tcG9uZW50XG4gIF0sXG4gIGltcG9ydHM6IFtcbiAgICBDb21tb25Nb2R1bGVcbiAgXSxcbiAgZXhwb3J0czogW05neEdhbGxlcnlDb21wb25lbnRdLFxuICBzY2hlbWFzOiBbQ1VTVE9NX0VMRU1FTlRTX1NDSEVNQSxOT19FUlJPUlNfU0NIRU1BXVxufSlcbmV4cG9ydCBjbGFzcyBOZ3hHYWxsZXJ5TW9kdWxlIHsgfVxuIl19
